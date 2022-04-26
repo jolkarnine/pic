@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    min-height: 100vh;
+    background: #d80070;
+}
+
+.img-div{
+    width: 300px;
+    background: rgba(128, 128, 128, 0.9);
+    margin: 20px auto;
+}
+
+ img{
+    width: 300px;
+    height: auto
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    height: 50px;
+    width: 100px
+}
